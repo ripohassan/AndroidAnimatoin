@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/transitions_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nature"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_gravity="center"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:background="@drawable/nature"
+        android:text="DO MAGIC" />
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/imv_Nature"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/nature"/>
+
+
+</LinearLayout>
